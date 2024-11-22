@@ -86,6 +86,8 @@ masterPlay.addEventListener('click', ()=>{
 )
 
 playPrevious.addEventListener('click', ()=>{    
+
+    
     if(songIndex <= 0){
         songIndex = songs.length - 1;
     } else {
